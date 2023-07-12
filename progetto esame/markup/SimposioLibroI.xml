@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Simposio</title>
+                <author xml:id="SF">Senofonte</author>
+                <respStmt>
+                    <resp>Codifica</resp>
+                    <persName xml:id="DC">Diego Canali</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Supervisione</resp>
+                    <persName xml:id="FT">Francesca Tomasi</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Portale Senofonte</publisher>
+                <pubPlace>Università di Bologna</pubPlace>
+                <date>2023</date>
+                <availability>
+                    <p>Questa risorsa è liberamente accessibile per uso personale o scientifico.
+                        Ogni uso commerciale è vietato.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>The Symposium By Xenophon of Athens. A new Critical Edition with a
+                        Facing-Page English Translation</title>
+                    <author ref="#SF">Senofonte</author>
+                    <editor xml:id="DFJ">Donald F. Jackson</editor>
+                    <publisher>The Edwin Mellen Press</publisher>
+                    <pubPlace>Lewinston, Queenston, Lampeter</pubPlace>
+                    <date>2013</date>
+                    <note> Nella presente edizione riporterò solamente il testo in lingua
+                        greca</note>
+                    <idno type="ISBN">ISBN 978-0-7734-4350-1</idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <quotation marks="all"/>
+                <hyphenation>
+                    <p>I trattini di sillabazione a fine riga sono stati eliminati e le parole
+                        ricomposte</p>
+                </hyphenation>
+            </editorialDecl>
+            <projectDesc>
+                <p>La codifica dei testi senofontei per la piattaforma Portale Senofonte sarà
+                    descritta a tempo debito sul portale stesso</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName ref="#SF" sameAs="http://viaf.org/viaf/83270774"
+                            >Senofonte</persName>
+                        <persName xml:id="callia">Καλλίας</persName>
+                        <persName xml:id="ipponico">Ἱππονίκος</persName>
+                        <persName xml:id="autolico">Αὐτολύκος</persName>
+                        <persName xml:id="nicerato">Νικήρατος</persName>
+                        <persName xml:id="socrate">Σωκράτης</persName>
+                        <persName xml:id="critobulo">Κριτόβουλος</persName>
+                        <persName xml:id="ermogene">Ἑρμογένης</persName>
+                        <persName xml:id="antistene">Ἀντισθένης</persName>
+                        <persName xml:id="carmide">Χαρμίδης</persName>
+                        <persName xml:id="protagora">Πρωταγόρα</persName>
+                        <persName xml:id="gorgia">Γοργία</persName>
+                        <persName xml:id="prodico">Προδίκος</persName>
+                        <persName xml:id="filippo">Φίλιππος</persName>
+                        <persName xml:id="eros">Ἔρως</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+
+        </profileDesc>
+
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <head>ΞΕΝΟΦΩΝΤΟΣ ΣΥΜΠΟΣΙΟΝ</head>
+
+            <div xml:id="book_1_gre" n="1" xml:lang="greek">
+                <p n="1"> Ἀλλ’ ἐμοὶ δοκεῖ τῶν καλῶν κἀγαθῶν ἀνδρῶν ἔργα οὐ μόνον τὰ μετὰ σπουδῆς
+                    πραττόμενα ἀξιομνημόνευτα εἶναι, ἀλλὰ καὶ τὰ ἐν ταῖς παιδιαῖς. οἷς δὲ
+                    παραγενόμενος ταῦτα γιγνώσκω δηλῶσαι βούλομαι.</p>
+                <p n="2"> ἦν μὲν γὰρ Παναθηναίων τῶν μεγάλων ἱπποδρομία, <persName ref="callia"
+                        >Καλλίας</persName> δὲ ὁ <persName ref="#ipponico">Ἱππονίκου</persName> ἐρῶν
+                    ἐτύγχανεν <persName ref="#autolico">Αὐτολύκου</persName> παιδὸς ὄντος, καὶ
+                    νενικηκότα αὐτὸν παγκράτιον ἧκεν ἄγων ἐπὶ τὴν θέαν. ὡς δὲ ἡ ἱπποδρομία ἔληξεν,
+                    ἔχων τόν τε <persName ref="#autolico">Αὐτόλυκον</persName> καὶ τὸν πατέρα αὐτοῦ
+                    ἀπῄει εἰς τὴν ἐν Πειραιεῖ οἰκίαν· συνείπετο δὲ αὐτῷ καὶ <persName
+                        ref="#nicerato">Νικήρατος</persName>.</p>
+                <p n="3"> ἰδὼν δὲ ὁμοῦ ὄντας <persName ref="#socrate">Σωκράτην</persName> τε καὶ
+                        <persName ref="#critobulo">Κριτόβουλον</persName> καὶ <persName
+                        ref="#ermogene">Ἑρμογένην</persName> καὶ <persName ref="#antistene">
+                        Ἀντισθένην</persName> καὶ <persName ref="#carmide">Χαρμίδην</persName>, τοῖς
+                    μὲν ἀμφ’ <persName ref="#autolico">Αὐτόλυκον</persName> ἡγεῖσθαί τινα ἔταξεν,
+                    αὐτὸς δὲ προσῆλθε τοῖς ἀμφὶ <persName ref="#socrate">Σωκράτην</persName>, καὶ
+                    εἶπεν·</p>
+                <p n="4"> Εἰς καλόν γε ὑμῖν συντετύχηκα· ἑστιᾶν γὰρ μέλλω <persName ref="#autolico"
+                        >Αὐτόλυκον</persName> καὶ τὸν πατέρα αὐτοῦ. οἶμαι οὖν πολὺ ἂν τὴν κατασκευήν
+                    μοι λαμπροτέραν φανῆναι εἰ ἀνδράσιν ἐκκεκαθαρμένοις τὰς ψυχὰς ὥσπερ ὑμῖν ὁ
+                    ἀνδρὼν κεκοσμημένος εἴη μᾶλλον ἢ εἰ στρατηγοῖς καὶ ἱππάρχοις καὶ
+                    σπουδαρχίαις.</p>
+                <p n="5"> καὶ ὁ <persName ref="#socrate">Σωκράτης</persName> εἶπεν· Ἀεὶ σὺ
+                    ἐπισκώπτεις ἡμᾶς καταφρονῶν, ὅτι σὺ μὲν <persName ref="#protagora"
+                        >Πρωταγόρᾳ</persName> τε πολὺ ἀργύριον δέδωκας ἐπὶ σοφίᾳ καὶ <persName
+                        ref="#gorgia">Γοργίᾳ</persName> καὶ <persName ref="#prodico"
+                        >Προδίκῳ</persName> καὶ ἄλλοις πολλοῖς, ἡμᾶς δ’ ὁρᾷς αὐτουργούς τινας τῆς
+                    φιλοσοφίας ὄντας.</p>
+                <p n="6"> καὶ ὁ <persName ref="#callia">Καλλίας</persName>, Καὶ πρόσθεν μέν γε, ἔφη,
+                    ἀπεκρυπτόμην ὑμᾶς ἔχων πολλὰ καὶ σοφὰ λέγειν, νῦν δέ, ἐὰν παρ’ ἐμοὶ ἦτε,
+                    ἐπιδείξω ὑμῖν ἐμαυτὸν πάνυ πολλῆς σπουδῆς ἄξιον ὄντα.</p>
+                <p n="7">οἱ οὖν ἀμφὶ τὸν <persName ref="#socrate">Σωκράτην</persName> πρῶτον μέν,
+                    ὥσπερ εἰκὸς ἦν, ἐπαινοῦντες τὴν κλῆσιν οὐχ ὑπισχνοῦντο συνδειπνήσειν· ὡς δὲ πάνυ
+                    ἀχθόμενος φανερὸς ἦν, εἰ μὴ ἕψοιντο, συνηκολού θησαν. ἔπειτα δὲ αὐτῷ οἱ μὲν
+                    γυμνασάμενοι καὶ χρισάμενοι, οἱ δὲ καὶ λουσάμενοι παρῆλθον.</p>
+                <p n="8"><persName ref="#autolico">Αὐτόλυκος</persName> μὲν οὖν παρὰ τὸν πατέρα
+                    ἐκαθέζετο, οἱ δ’ ἄλλοι, ὥσπερ εἰκός, κατεκλίθησαν. εὐθὺς μὲν οὖν ἐννοήσας τις τὰ
+                    γιγνόμενα ἡγήσατ’ ἂν φύσει βασιλικόν τι κάλλος εἶναι, ἄλλως τε καὶ ἂν μετ’
+                    αἰδοῦς καὶ σωφροσύνης, καθάπερ <persName ref="#autolico">Αὐτόλυκος</persName>
+                    τότε, κεκτῆταί τις αὐτό.</p>
+                <p n="9"> πρῶτον μὲν γάρ, ὥσπερ ὅταν φέγγος τι ἐν νυκτὶ φανῇ, πάντων προσάγεται τὰ
+                    ὄμματα, οὕτω καὶ τότε τοῦ <persName ref="#autolico">Αὐτόλυκου</persName> τὸ
+                    κάλλος πάντων εἷλκε τὰς ὄψεις πρὸς αὐτόν· ἔπειτα τῶν ὁρώντων οὐδεὶς οὐκ ἔπασχέ
+                    τι τὴν ψυχὴν ὑπ’ ἐκείνου. οἱ μέν γε σιωπηρότεροι ἐγίγνοντο, οἱ δὲ καὶ
+                    ἐσχηματίζοντό πως.</p>
+                <p n="10">πάντες μὲν οὖν οἱ ἐκ θεῶν του κατεχόμενοι ἀξιοθέατοι δοκοῦσιν εἶναι· ἀλλ’
+                    οἱ μὲν ἐξ ἄλλων πρὸς τὸ γοργότεροί τε ὁρᾶσθαι καὶ φοβερώτερον φθέγγεσθαι καὶ
+                    σφοδρότεροι εἶναι φέρονται, οἱ δ’ ὑπὸ τοῦ σώφρονος <persName ref="#eros"
+                        >ἔρωτος</persName> ἔνθεοι τά τε ὄμματα φιλοφρονεστέρως ἔχουσι καὶ τὴν φωνὴν
+                    πρᾳοτέραν ποιοῦνται καὶ τὰ σχήματα εἰς τὸ ἐλευθεριώτερον ἄγουσιν. ἃ δὴ καὶ
+                        <persName ref="#callia">Καλλίας</persName> τότε διὰ τὸν <persName
+                        ref="#eros">ἔρωτα</persName> πράττων ἀξιοθέατος ἦν τοῖς τετελεσμένοις τούτῳ
+                    τῷ θεῷ.</p>
+                <p n="11">ἐκεῖνοι μὲν οὖν σιωπῇ ἐδείπνουν, ὥσπερ τοῦτο ἐπιτεταγμένον αὐτοῖς ὑπὸ
+                    κρείττονός τινος. <persName ref="#filippo">Φίλιππος</persName> δ’ ὁ γελωτοποιὸς
+                    κρούσας τὴν θύραν εἶπε τῷ ὑπακούσαντι εἰσαγγεῖλαι ὅστις τε εἴη καὶ δι’ ὅ τι κατ-
+                    άγεσθαι βούλοιτο, συνεσκευασμένος τε παρεῖναι ἔφη πάντα τὰ ἐπιτήδεια ὥστε
+                    δειπνεῖν τἀλλότρια, καὶ τὸν παῖδα δὲ ἔφη πάνυ πιέζεσθαι διά τε τὸ φέρειν μηδὲν
+                    καὶ διὰ τὸ ἀνάριστον εἶναι.</p>
+                <p n="12">ὁ οὖν <persName ref="#callia">Καλλίας</persName> ἀκούσας ταῦτα εἶπεν· Ἀλλὰ
+                    μέντοι, ὦ ἄνδρες, αἰσχρὸν στέγης γε φθονῆσαι· εἰσίτω οὖν. καὶ ἅμα ἀπέβλεψεν εἰς
+                    τὸν <persName ref="#autolico">Αὐτόλυκον</persName>, δῆλον ὅτι ἐπισκοπῶν τί
+                    ἐκείνῳ δόξειε τὸ σκῶμμα εἶναι.</p>
+                <p n="13">ὁ δὲ στὰς ἐπὶ τῷ ἀνδρῶνι ἔνθα τὸ δεῖπνον ἦν εἶπεν· Ὅτι μὲν γελωτοποιός
+                    εἰμι ἴστε πάντες· ἥκω δὲ προθύμως νομίσας γελοιότερον εἶναι τὸ ἄκλητον ἢ τὸ
+                    κεκλημένον ἐλθεῖν ἐπὶ τὸ δεῖπνον. Κατακλίνου τοίνυν, ἔφη ὁ <persName
+                        ref="#callia">Καλλίας</persName>. καὶ γὰρ οἱ παρόντες σπουδῆς μέν, ὡς ὁρᾷς,
+                    μεστοί, γέλωτος δὲ ἴσως ἐνδεέστεροι.</p>
+                <p n="14"> δειπνούντων δὲ αὐτῶν ὁ <persName ref="#filippo">Φίλιππος</persName>
+                    γελοῖόν τι εὐθὺς ἐπεχείρει λέγειν, ἵνα δὴ ἐπιτελοίη ὧνπερ ἕνεκα ἐκαλεῖτο
+                    ἑκάστοτε ἐπὶ τὰ δεῖπνα. ὡς δ’ οὐκ ἐκίνησε γέλωτα, τότε μὲν ἀχθεσθεὶς φανερὸς
+                    ἐγένετο. αὖθις δ’ ὀλίγον ὕστερον ἄλλο τι γελοῖον ἐβούλετο λέγειν. ὡς δὲ οὐδὲ
+                    τότε ἐγέλασαν ἐπ’ αὐτῷ, ἐν τῷ μεταξὺ παυσάμενος τοῦ δείπνου συγκαλυψάμενος
+                    κατέκειτο.</p>
+                <p n="15">καὶ ὁ <persName ref="#callia">Καλλίας</persName>, Τί τοῦτ’, ἔφη, ὦ
+                        <persName ref="#filippo">Φίλιππε</persName>; ἀλλ’ ἢ ὀδύνη σε εἴληφε; καὶ ὃς
+                    ἀναστενάξας εἶπε· Ναὶ μὰ Δί’, ἔφη, ὦ <persName ref="#callia">Καλλία</persName>,
+                    μεγάλη γε· ἐπεὶ γὰρ γέλως ἐξ ἀνθρώπων ἀπόλωλεν, ἔρρει τὰ ἐμὰ πράγματα. πρόσθεν
+                    μὲν γὰρ τούτου ἕνεκα ἐκαλούμην ἐπὶ τὰ δεῖπνα, ἵνα εὐφραίνοιντο οἱ συνόντες δι’
+                    ἐμὲ γελῶντες· νῦν δὲ τίνος ἕνεκα καὶ καλεῖ μέ τις; οὔτε γὰρ ἔγωγε σπουδάσαι ἂν
+                    δυναίμην μᾶλλον ἤπερ ἀθάνατος γενέσθαι, οὔτε μὴν ὡς ἀντικληθησόμενος καλεῖ μέ
+                    τις, ἐπεὶ πάντες ἴσασιν ὅτι ἀρχὴν οὐδὲ νομίζεται εἰς τὴν ἐμὴν οἰκίαν δεῖπνον
+                    προσφέρεσθαι. καὶ ἅμα λέγων ταῦτα ἀπεμύττετό τε καὶ τῇ φωνῇ σαφῶς κλαίειν
+                    ἐφαίνετο.</p>
+                <p n="16">πάντες μὲν οὖν παρεμυθοῦντό τε αὐτὸν ὡς αὖθις γελασόμενοι καὶ δειπνεῖν
+                    ἐκέλευον, <persName ref="#critobulo">Κριτόβουλος</persName> δὲ καὶ ἐξεκάγχασεν
+                    ἐπὶ τῷ οἰκτισμῷ αὐτοῦ. ὁ δ’ ὡς ᾔσθετο τοῦ γέλωτος, ἀνεκαλύψατό τε καὶ τῇ ψυχῇ
+                    παρακελευσάμενος θαρρεῖν, ὅτι ἔσονται συμβολαί, πάλιν ἐδείπνει.</p>
+            </div>
+
+            <div xml:id="book_1_ita" n="1" xml:lang="italian">
+                <p n="1">1. Certo, a me pare che le azioni degli uomini virtuosi siano degne di
+                    essere ricordate non solo quando fatte in tutta serietà, ma anche nei momenti di
+                    scherzo. Me ne sono reso conto dopo aver assistito a queste cose che desidero
+                    raccontare.</p>
+                <p n="2">2. C’era infatti la corsa coi carri delle Grandi Panatenee, e <persName
+                        ref="#callia">Callia</persName> – figlio di <persName ref="#ipponico"
+                        >Ipponico</persName>, che si dà il caso fosse amante di <persName
+                        ref="#autolico">Autolico</persName>, il quale era ancora un ragazzo – era
+                    giunto allo spettacolo portandoselo appresso, lui che aveva appena vinto il
+                    pancrazio. Non appena finì la corsa coi carri, si avviava verso la casa nel
+                    Pireo, insieme ad <persName ref="#autolico">Autolico</persName> e al padre di
+                    lui; lo seguiva anche <persName ref="#nicerato">Nicerato</persName>.</p>
+                <p n="3">3. Vedendo che erano insieme <persName ref="#socrate">Socrate</persName>,
+                        <persName ref="#critobulo">Critobulo</persName>, <persName ref="#ermogene"
+                        >Ermogene</persName>, <persName ref="#antistene">Antistene</persName> e
+                        <persName ref="#carmide">Carmide</persName>, ordinò ad un tale di codurre
+                    quelli che erano con <persName ref="#autolico">Autolico</persName>, mentre lui
+                    si avvicinò a <persName ref="#socrate">Socrate</persName> e disse:</p>
+                <p n="4">4. “Vi ho incontrati a proposito: infatti ho intenzione di offrire un
+                    banchetto ad <persName ref="#autolico">Autolico</persName> e a suo padre. Credo
+                    infatti che l’allestimento sembrerebbe più splendido se la sala fosse abbellita
+                    da uomini puri d’animo come voi, piuttosto che da strateghi, ipparchi e chi
+                    briga per una carica”.</p>
+                <p n="5">5. E <persName ref="#socrate">Socrate</persName> disse: “Tu ci prendi
+                    sempre in giro con disprezzo perché tu hai dato molto denaro in cambio di
+                    sapienza a <persName ref="#protagora">Protagora</persName>, a <persName
+                        ref="#gorgia">Gorgia</persName>, a <persName ref="#prodico"
+                        >Prodico</persName> e a molti altri, mentre vedi che noi siamo autodidatti
+                    nella filosofia”.</p>
+                <p n="6">6. E <persName ref="#callia">Callia</persName>: “Certo, finora”, disse, “vi
+                    ho tenuto nascosto di avere molte cose anche sagge da dire, ma ora, se venite da
+                    me, vi mostrerò che sono degno di essere davvero degno di gran
+                    considerazione”.</p>
+                <p n="7">7. Allora inizialmente, come era evidente, quelli che erano con <persName
+                        ref="#socrate">Socrate</persName>, pur ringraziando per l’invito, non
+                    promisero che avrebbero partecipato al banchetto; poi però, quando fu chiaro che
+                        (<persName ref="#callia">Callia</persName>) si sarebbe irritato se non
+                    l’avessero seguito, lo accompagnarono. Quindi arrivarono da lui, alcuni dopo
+                    aver fatto ginnastica ed essersi cosparsi d’unguento, altri dopo essersi pure
+                    lavati.</p>
+                <p n="8">8. dunque si sedette vicino a suo padre, gli altri invece, come era solito,
+                    si sdraiarono. Chi avesse assistito direttamente agli avvenimenti avrebbe
+                    certamente pensato che la bellezza è per natura qualcosa di regale, specialmente
+                    se uno ne possiede unitamente al pudore e al senso della misura10, proprio come
+                        <persName ref="#autolico">Autolico</persName>. </p>
+                <p n="9">9. Inizialmente infatti, come quando una luce compare nella notte e attrae
+                    gli occhi di tutti, così allora la bellezza di <persName ref="#autolico"
+                        >Autolico</persName> attirava su di lui gli sguardi di tutti; un attimo
+                    dopo, nessuno di coloro che lo guardavano non ne provava qualcosa nell’animo.
+                    Alcuni si facevano più silenziosi, altri invece si davano anche un certo
+                    contegno.</p>
+                <p n="10">10. Certo, tutti coloro che sono posseduti da uno degli dèi sembrano
+                    essere degni di essere contemplati: ma quelli che sono invasati da altre
+                    divinità sono portati ad essere assai terribili a vedersi, davvero spaventosi
+                    nel gridare ed essere più violenti; invece quelli che sono invasati dal sapiente
+                        <persName ref="#Eros">Eros</persName> guardano assai più amabilmente, e
+                    modulano la voce più pacatamente, ed hanno atteggiamenti più liberali. Anche
+                        <persName ref="#callia">Callia</persName>, che grazie a <persName
+                        ref="#eros">Eros</persName> si comportava così, era degno di c ontemplazione
+                    da chi era stato iniziato da questo dio.</p>
+                <p n="11"> 11. Quelli banchettavano in silenzio, come se fosse stato loro ordinato
+                    da qualcuno di superiore. Ma ecco che <persName ref="#filippo"
+                        >Filippo</persName>, il buffone, dopo aver bussato alla porta, disse al
+                    portinaio di annunciare (al suo padrone) chi fosse e perché volesse essere
+                    introdotto: disse di essere venuto pronto di tutto il necessario per banchettare
+                    alla mensa altrui, e disse che il suo servo11 era molto provato dal fatto di non
+                    aver portato nulla e dal digiuno.</p>
+                <p n="12">12. E <persName ref="#callia">Callia</persName>, udito ciò, disse così:
+                    “Orsù amici, è cosa vergognosa negare un tetto: che entri dunque”. E intanto
+                    guardò verso <persName ref="#autolico">Autolico</persName>, chiaramente perché
+                    voleva vedere che cosa pensasse della sua battuta.</p>
+                <p n="13">13. E quello, in piedi nella stanza in cui si teneva il banchetto, disse:
+                    “Che io sia un buffone lo sapete tutti: sono giunto ben volentieri, perché ho
+                    pensato che sarebbe stato più divertente venire al pranzo non essendo invitato
+                    piuttosto che con l’invito". “Sdraiati pure”, disse <persName ref="#callia"
+                        >Callia</persName>. “Infatti i presenti, come vedi, sono colmi di seri
+                    pensieri, e forse hanno proprio bisogno di una risata”.</p>
+                <p n="14">14. Mentre quelli banchettavano, <persName ref="#filippo"
+                        >Filippo</persName> subito cominciava a dire qualcosa di buffo, per compiere
+                    ciò per cui di volta in volta veniva chiamato ai banchetti. Siccome però non
+                    riuscì a suscitare il riso, cominciò allora ad irritarsi manifestamente. E poco
+                    dopo cercava di dire qualcos’altro di spiritoso. Siccome però non risero neanche
+                    allora, smettendo di pranzare nel bel mezzo del banchetto e copertosi il volto,
+                    se ne stava sdraiato.</p>
+                <p n="15">15. E <persName ref="#callia">Callia</persName>: “Che hai”, disse, “o
+                        <persName ref="#filippo">Filippo</persName>? Ti ha preso qualche dolore?”. E
+                    quello piangendo disse: “Sì, per Zeus, <persName ref="#callia"
+                    >Callia</persName>, e grande anche: poiché il riso è svanito tra gli uomini, i
+                    miei affari andranno in rovina. Prima infatti per questo venivo chiamato ai
+                    banchetti, perché i presenti, ridendo per merito mio, si divertissero; ma ora
+                    per quale motivo uno dovrebbe chiamarmi? Infatti non sarei capace di fare il
+                    serio (piuttosto sarebbe più facile diventare immortale), né di certo uno mi
+                    chiamerebbe dal momento che non riceverebbe in cambio l’invito, poiché tutti
+                    sanno che in casa mia non si usa affatto offrire banchetti”. E dicendo queste
+                    cose si soffiava il naso e con la voce faceva magistralmente mostra di
+                    piangere.</p>
+                <p n="16">16. Tutti allora lo consolavano, dicendo che poi avrebbero riso e lo
+                    esortavano a mangiare; <persName ref="#critobulo">Critobulo</persName>
+                    addirittura scoppiò a sghignazzare per il suo lamento; e quello, come si accorse
+                    della risata, si scoprì il volto e, esortando il suo animo ad avere coraggio,
+                    perché ci sarebbero stati (ancora) banchetti, e riprendeva a mangiare.</p>
+            </div>
+
+            <div xml:id="book_1_eng" n="1" xml:lang="english">
+                <p n="1">1. To my mind it is worth while to relate not only the serious acts of
+                    great and good men but also what they do in their lighter moods. I should like
+                    to narrate an experience of mine that gives me this conviction.</p>
+                <p n="2">2. It was on the occasion of the horse-races at the greater Panathenaic
+                    games; <persName ref="#callia">Callias</persName>, <persName ref="#ipponico"
+                        >Hipponicus</persName>' son, was enamoured, as it happened, of the boy
+                        <persName ref="#autolico">Autolycus</persName>, and in honour of his victory
+                    in the pancratium1 had brought him to see the spectacle. When the racing was
+                    over, <persName ref="#callia">Callias</persName> proceeded on his way to his
+                    house in the Peiraeus with <persName ref="#autolico">Autolycus</persName> and
+                    the boy's father; <persName ref="#nicerato">Niceratus</persName> also was in his
+                    company.</p>
+                <p n="3">3. But on catching sight of a group comprising <persName ref="#socrate"
+                        >Socrates</persName>, <persName ref="#critobulo">Critobulus</persName>,
+                        <persName ref="#ermogene">Hermogenes</persName>, <persName ref="#antistene"
+                        >Antisthenes</persName>, and <persName ref="#carmide">Charmides</persName>,
+                        <persName ref="#callia">Callias</persName> bade one of his servants escort
+                        <persName ref="#autolico">Autolycus</persName> and the others, and himself
+                    going over to <persName ref="#socrate">Socrates</persName> and his companions,
+                    said,</p>
+                <p n="4">4. “This is an opportune meeting, for I am about to give a dinner in honour
+                    of <persName ref="#autolico">Autolycus</persName> and his father; and I think
+                    that my entertainment would present a great deal more brilliance if my
+                    dining-room were graced with the presence of men like you, whose hearts have
+                    undergone philosophy's purification, than it would with generals and cavalry
+                    commanders and office-seekers.”</p>
+                <p n="5">5. “You are always quizzing us,” replied <persName ref="#socrate"
+                        >Socrates</persName>; “for you have yourself paid a good deal of money for
+                    wisdom to <persName ref="#protagora">Protagoras</persName>, <persName
+                        ref="#gorgia">Gorgias</persName>, <persName ref="#prodico"
+                        >Prodicus</persName>, and many others, while you see that we are what you
+                    might call amateurs in philosophy; and so you feel supercilious toward us.”</p>
+                <p n="6">6. “Yes,” said <persName ref="#callia">Callias</persName>, “so far, I
+                    admit, I have been keeping you ignorant of my ability at profound and lengthy
+                    discourse; but now, if you will favour me with your company, I will prove to you
+                    that I am a person of some consequence.”</p>
+                <p n="7">7. Now at first <persName ref="#socrate">Socrates</persName> and his
+                    companions thanked him for the invitation, as might be expected, but would not
+                    promise to attend the banquet; when it became clear, however, that he was taking
+                    their refusal very much to heart, they went with him. And so his guests arrived,
+                    some having first taken their exercise and their rub-down, others with the
+                    addition of a bath.</p>
+                <p n="8">8. <persName ref="#autolico">Autolycus</persName> took a seat by his
+                    father's side; the others, of course, reclined. A person who took note of the
+                    course of events would have come at once to the conclusion that beauty is in its
+                    essence something regal, especially when, as in the present case of <persName
+                        ref="#autolico">Autolycus</persName>, its possessor joins with it modesty
+                    and sobriety.</p>
+                <p n="9">9. For in the first place, just as the sudden glow of a light at night
+                    draws all eyes to itself, so now the beauty of <persName ref="#autolico"
+                        >Autolycus</persName> compelled every one to look at him. And again, there
+                    was not one of the onlookers who did not feel his soul strangely stirred by the
+                    boy; some of them grew quieter than before, others even assumed some kind of a
+                    pose.</p>
+                <p n="10">10. Now it is true that all who are under the influence of any of the gods
+                    seem well worth gazing at; but whereas those who are possessed of the other gods
+                    have a tendency to be sterner of countenance, more terrifying of voice, and more
+                    vehement, those who are inspired by chaste <persName ref="#eros">Love</persName>
+                    have a more tender look, subdue their voices to more gentle tones, and assume a
+                    supremely noble bearing. Such was the demeanour of <persName ref="#callia"
+                        >Callias</persName> at this time under the influence of <persName
+                        ref="#eros">Love</persName>; and therefore he was an object well worth the
+                    gaze of those initiated into the worship of this god.</p>
+                <p n="11">11. The company, then, were feasting in silence, as though some one in
+                    authority had commanded them to do so, when <persName ref="#filippo"
+                        >Philip</persName> the buffoon knocked at the door and told the porter to
+                    announce who he was and that he desired to be admitted; he added that with
+                    regard to food he had come all prepared, in all varieties—to dine on some other
+                    person's,—and that his servant was in great distress with the load he carried
+                    of—nothing, and with having an empty stomach. Hearing this, <persName
+                        ref="#callia">Callias</persName> said,</p>
+                <p n="12">12. “Well, gentlemen, we cannot decently begrudge him at the least the
+                    shelter of our roof; so let him come in.” With the words he cast a glance at
+                        <persName ref="#autolico">Autolycus</persName>, obviously trying to make out
+                    what he had thought of the pleasantry.</p>
+                <p n="13">13. But <persName ref="#filippo">Philip</persName>, standing at the
+                    threshold of the men's hall where the banquet was served, announced: “You all
+                    know that I am a jester; and so I have come here with a will, thinking it more
+                    of a joke to come to your dinner uninvited than to come by invitation.” “Well,
+                    then,” said <persName ref="#callia">Callias</persName>, “take a place; for the
+                    guests, though well fed, as you observe, on seriousness, are perhaps rather ill
+                    supplied with laughter.”</p>
+                <p n="14">14. No sooner were they engaged in their dinner than <persName
+                        ref="#filippo">Philip</persName> attempted a witticism, with a view to
+                    rendering the service that secured him all his dinner engagements; but on
+                    finding that he did not excite any laughter, he showed himself, for the time,
+                    considerably vexed. A little later, however, he must try another jest; but when
+                    they would not laugh at him this time either, he stopped while the dinner was in
+                    full swing, covered his head with his cloak, and lay down on his couch.</p>
+                <p n="15">15. “What does this mean, <persName ref="#filippo">Philip</persName>?”
+                        <persName ref="#callia">Callias</persName> inquired. “Are you seized with a
+                    pain?” <persName ref="#filippo">Philip</persName> replied with a groan, “Yes,
+                        <persName ref="#callia">Callias</persName>, by Heaven, with a severe one;
+                    for since laughter has perished from the world, my business is ruined. For in
+                    times past, the reason why I got invitations to dinner was that I might stir up
+                    laughter among the guests and make them merry; but now, what will induce any one
+                    to invite me? For I could no more turn serious than I could become immortal; and
+                    certainly no one will invite me in the hope of a return invitation, as every one
+                    knows that there is not a vestige of tradition of bringing dinner into my
+                    house.” As he said this, he wiped his nose, and to judge by the sound, he was
+                    evidently weeping. </p>
+                <p n="16">16. All tried to comfort him with the promise that they would laugh next
+                    time, and urged him to eat; and <persName ref="#critobulo">Critobulus</persName>
+                    actually burst out into a guffaw at his lugubrious moaning. The moment <persName
+                        ref="#filippo">Philip</persName> heard the laughter he uncovered his head,
+                    and exhorting his spirit to be of good courage, in view of approaching
+                    engagements,1 he fell to eating again.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>
